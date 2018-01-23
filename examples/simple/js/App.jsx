@@ -1,5 +1,6 @@
 import './../less/main.less';
 import '../index.html';
+import '../../grayscale-prism-theme.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

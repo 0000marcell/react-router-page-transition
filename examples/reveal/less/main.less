@@ -9,7 +9,6 @@ body {
 
 .list-page {
   display: flex;
-
   flex-wrap: wrap;
 }
 
@@ -17,18 +16,18 @@ body {
   display: block;
   box-sizing: border-box;
   padding: 10px;
-  padding: 10px;
+  margin: 10px;
   width: @size;
   height: @size;
   border-radius: (@size + 20) / 2;
   color: #fff;
   text-align: center;
-
   @size: 100px;
 }
 
 .transition-wrapper {
   position: relative;
+  padding: 10px;
   z-index: 1;
   .transition-item {
     position: fixed;
@@ -69,7 +68,6 @@ body {
   z-index: 2;
   box-sizing: border-box;
   padding: 20px;
-  height: 100vh;
   background-color: #fff;
   transition: opacity 0.5s;
 
@@ -80,4 +78,8 @@ body {
   &.transition-appear.transition-appear-active {
     opacity: 1;
   }
+}
+
+.transition-code{
+  padding: 10px;
 }
