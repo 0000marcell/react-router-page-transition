@@ -6,3 +6,4 @@ bower_components
 coverage
 build
 demo-build
+package-lock.json
